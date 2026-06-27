@@ -487,6 +487,23 @@
       opacity: 1;
       transform: translateY(0);
     }
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      .nav-content { flex-direction: column; gap: 16px; }
+      .nav-links { flex-wrap: wrap; justify-content: center; gap: 16px; }
+      header { padding: 16px 0; }
+      .hero { padding: 160px 0 60px; text-align: center; }
+      .hero-label { margin-left: auto; margin-right: auto; }
+      .hero h1 { font-size: 2.5rem; }
+      .hero p { margin-left: auto; margin-right: auto; }
+      .section-padding { padding: 60px 0; }
+      .section-header h2 { font-size: 2rem; }
+      .bento-card { padding: 24px; }
+      .bento-icon { margin-bottom: 16px; width: 40px; height: 40px; }
+      .contact-card { width: 100%; justify-content: center; }
+      .portfolio-filter { justify-content: center; }
+      .portfolio-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
